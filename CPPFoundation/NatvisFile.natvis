@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="CPPFoundation::Foundation::CString">
+    <DisplayString>{{ {MString} }}</DisplayString>
+  </Type>
+  <Type Name="CPPFoundation::Foundation::CID">
+    <DisplayString>{{ {MID} }}</DisplayString>
+  </Type>
+  <Type Name="CPPFoundation::Foundation::CException">
+    <DisplayString>{{ {MMessage} }}</DisplayString>
+  </Type>
+  <Type Name="CPPFoundation::Telemetry::CTelemetryDevice">
+    <DisplayString>{{ {MDeviceID} }}</DisplayString>
+  </Type>
+  <Type Name="CPPFoundation::Telemetry::CTelemetryModule">
+    <DisplayString>{{ {MModuleID} }}</DisplayString>
+  </Type>
+  <Type Name="CPPFoundation::Telemetry::CTelemetryDeviceChannel">
+    <DisplayString>{{ {MDeviceChannelID} }}</DisplayString>
+  </Type>
+</AutoVisualizer>

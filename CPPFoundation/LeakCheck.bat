@@ -1,0 +1,1 @@
+valgrind --tool=memcheck --leak-check=full --show-possibly-lost=no ./Program.exe

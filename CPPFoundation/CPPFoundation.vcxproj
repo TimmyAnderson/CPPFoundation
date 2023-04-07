@@ -1,0 +1,970 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\Foundation\Cache\CCacheEntry.cpp" />
+    <ClCompile Include="Framework\Foundation\Cache\CCacheEntryID.cpp" />
+    <ClCompile Include="Framework\Foundation\Cache\CCacheManager.cpp" />
+    <ClCompile Include="Framework\Foundation\Collections\CByteBuffer.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManager.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerCallbackDispatcher.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerEventContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessage.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageID.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequest.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketAdd.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketRemove.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketWrite.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponse.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketAdd.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketClose.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketError.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketRead.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketRemove.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketWrite.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerSocketData.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerWriteOperation.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\ISocketCANManagerCallback.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCAN.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANFrame.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANID.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANReceiveFromParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANReceiveFromResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANSendToParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANSendToResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\ISocketCANWrapper.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManager.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerCallbackDispatcher.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessage.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageID.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequest.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequestDNSAddressToIPAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequestIPAddressToDNSAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponse.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponseDNSAddressToIPAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponseIPAddressToDNSAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\ISocketDNSResolverManagerCallback.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSEndpoint.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSResolver.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\IP\CSocketIPAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\IP\CSocketIPEndpoint.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManager.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerCallbackDispatcher.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerEventContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessage.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageID.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequest.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketAdd.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketConnect.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketRemove.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketShutdown.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketWrite.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponse.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketAdd.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketClosed.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketClosing.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketConnect.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketError.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketRead.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketRemove.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketShutdown.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketWrite.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerSocketData.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerWriteOperation.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManager.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerCallbackDispatcher.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerEventContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessage.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageID.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequest.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequestSocketAdd.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequestSocketRemove.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponse.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketAccept.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketAdd.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketClose.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketError.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketRemove.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerSocketData.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\ISocketTCPClientManagerCallback.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\ISocketTCPServerManagerCallback.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPClient.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPReceiveParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPReceiveResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPSendParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPSendResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPServer.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\ISocketTCPWrapper.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerEventContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageID.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerSocketData.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerWriteOperation.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManager.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerCallbackDispatcher.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessage.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequest.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketAdd.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketRemove.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketWrite.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponse.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketAdd.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketRead.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketClose.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketError.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketRemove.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketWrite.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\ISocketUDPManagerCallback.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDP.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPReceiveFromParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPReceiveFromResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPSendToParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPSendToResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\ISocketUDPWrapper.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocket.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketAddress.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketEndpoint.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketID.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketLibrary.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveFromParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveFromResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendToParameters.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendToResult.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketWaitState.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\ISocketSynchronizationObject.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\ISocketWaitObject.cpp" />
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\ISocketWrapper.cpp" />
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenuItemCommandParamsIterator.cpp" />
+    <ClCompile Include="Framework\Foundation\Events\CEventContext.cpp" />
+    <ClCompile Include="Framework\Foundation\Events\CEventID.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CArgumentException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CCommunicationException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CEncryptionException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CFileException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CInvalidCastException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CInvalidOperationException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CInvalidValueException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CNotImplementedException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CNullPointerException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\COutOfMemoryException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CParserException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CSocketException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CStateMachineException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CSystemException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CUnknownException.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CValueOutOfRangeException.cpp" />
+    <ClCompile Include="Framework\Foundation\FileSystem\CDirectory.cpp" />
+    <ClCompile Include="Framework\Foundation\FileSystem\CDirectoryEntry.cpp" />
+    <ClCompile Include="Framework\Foundation\FileSystem\CFile.cpp" />
+    <ClCompile Include="Framework\Foundation\FileSystem\CFileHelper.cpp" />
+    <ClCompile Include="Framework\Foundation\FileSystem\CFilePathSegment.cpp" />
+    <ClCompile Include="Framework\Foundation\FileSystem\CFilePathTraitsLinux.cpp" />
+    <ClCompile Include="Framework\Foundation\FileSystem\CFilePathTraitsWindows.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CConsoleLogWriterColorSettings.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CDummyLogWriter.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CLogCategory.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CLogFilter.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CLogFilterConfiguration.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CLogFilterConfigurationItem.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CLogRecord.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CLogSource.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CLogWriter.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\ILogFilter.cpp" />
+    <ClCompile Include="Framework\Foundation\Mathematics\CCircle2D.cpp" />
+    <ClCompile Include="Framework\Foundation\Mathematics\CGeometryObject.cpp" />
+    <ClCompile Include="Framework\Foundation\Mathematics\CLine2D.cpp" />
+    <ClCompile Include="Framework\Foundation\Mathematics\CPoint2D.cpp" />
+    <ClCompile Include="Framework\Foundation\Mathematics\CPolygon2D.cpp" />
+    <ClCompile Include="Framework\Foundation\Miscellaneous\CKeyValue.cpp" />
+    <ClCompile Include="Framework\Foundation\Miscellaneous\CPriority.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParser.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserByteBufferReader.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserByteBufferWriter.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserConfiguration.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserHelper.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserPacket.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserPacketData.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserPacketParseConstructor.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserParameter.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserParameterCollection.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\CParserParameterID.cpp" />
+    <ClCompile Include="Framework\Foundation\Parsing\IParser.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerItem.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerItemID.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerManager.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTime.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimeInterval.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriod.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByDay.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByHour.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByMinute.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByMonth.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByWeekDay.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByYear.cpp" />
+    <ClCompile Include="Framework\Foundation\Scheduler\ISchedulerManagerCallback.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithm.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmConfiguration.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameter.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterCollection.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterID.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterTime.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CEncryptionAlgorithmConfigurationNoEncryption.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CEncryptionAlgorithmNoEncryption.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CEncryptionAlgorithmConfigurationRC4.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CEncryptionAlgorithmRC4.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CRC4.cpp" />
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CRC4Key.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateInputs\CStateInput.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CStateMachinesProcessor.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CStateMachinesProcessorSettings.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineCollection.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\CStateMachine.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineID.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineSettings.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\IStateMachineCallback.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\StateOutputs\CStateOutput.cpp" />
+    <ClCompile Include="Framework\Foundation\StateMachines\States\CState.cpp" />
+    <ClCompile Include="Framework\Foundation\Threads\CAbstractMutex.cpp" />
+    <ClCompile Include="Framework\Foundation\Threads\CAutoResetEvent.cpp" />
+    <ClCompile Include="Framework\Foundation\Threads\CLock.cpp" />
+    <ClCompile Include="Framework\Foundation\Threads\CManualResetEvent.cpp" />
+    <ClCompile Include="Framework\Foundation\Threads\CMutex.cpp" />
+    <ClCompile Include="Framework\Foundation\Time\CSteadyClock.cpp" />
+    <ClCompile Include="Framework\Foundation\Types\SBool.cpp" />
+    <ClCompile Include="Framework\Platform\FileSystem\CFileSystemHelper.cpp" />
+    <ClCompile Include="Framework\Platform\Global\CConstants.cpp" />
+    <ClCompile Include="Framework\Platform\Global\CFunctions.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketAddressHelper.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketDNSHelper.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketError.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketPlaformData.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketPlatformLibrary.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketSynchronizationObject.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketWaitObject.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketWrapperCAN.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketWrapperTCP.cpp" />
+    <ClCompile Include="Framework\Platform\Sockets\CSocketWrapperUDP.cpp" />
+    <ClCompile Include="Framework\Testing\CTest.cpp" />
+    <ClCompile Include="Tests\Framework\Cache\CCacheEntryTest1.cpp" />
+    <ClCompile Include="Tests\Framework\Cache\CCacheEntryTest2.cpp" />
+    <ClCompile Include="Tests\Framework\Cache\CCacheTest.cpp" />
+    <ClCompile Include="Tests\Framework\Collections\CCollectionTest.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CCommunicationTest.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketCANManagerMenu.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketCANMenu.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketDNSMenu.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketStatistics.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketStatisticsRecord.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketTCPManagerMenu.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketTCPMenu.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPManagerMenu.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPMenu.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponse.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseCondition.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseConditionData.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseItem.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseItemData.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseManager.cpp" />
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseManagerMenu.cpp" />
+    <ClCompile Include="Tests\Framework\FileSystem\CFileSystemTest.cpp" />
+    <ClCompile Include="Tests\Framework\FileSystem\CFileSystemTestPathData.cpp" />
+    <ClCompile Include="Tests\Framework\Mathematics\CMathematicsTest.cpp" />
+    <ClCompile Include="Tests\Framework\Scheduler\CSchedulerTest.cpp" />
+    <ClCompile Include="Tests\Framework\Security\CEncryptionTest.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInput1.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInput2.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInput3.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInput4.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInputAddChildStateMachine.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInputChangeState.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInputSendStateOutput.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInputUnsupported.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachinesProcessors\CTestStateMachinesProcessor.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachinesProcessors\CTestStateMachinesProcessorSettings.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine1.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine2.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine3.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine4.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException1.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException2.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException3.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException4.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings1.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings2.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings3.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings4.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings1.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings2.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings3.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings4.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettingsBasicTests.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineBasicTests.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineThrowException.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput1.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput2.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput3.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput4.cpp" />
+    <ClCompile Include="Tests\Framework\StateMachines\Tests\CStateMachineTest.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CAutoResetMultiEventThread.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CLongLivingThread.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CManualResetMultiEventThread.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CMyThread1.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CMyThread2.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CMyThread3.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CShortLivingThread.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CThreadWithStopRequestedEvent.cpp" />
+    <ClCompile Include="Tests\Framework\Types\CFunctionTest.cpp" />
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenu.cpp" />
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenuItem.cpp" />
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenuItemCollection.cpp" />
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenuItemCommandParams.cpp" />
+    <ClCompile Include="Framework\Foundation\Miscellaneous\CID.cpp" />
+    <ClCompile Include="Framework\Foundation\Time\CExpirationTime.cpp" />
+    <ClCompile Include="Framework\Foundation\Time\CTimeout.cpp" />
+    <ClCompile Include="Framework\Foundation\Time\CStopWatch.cpp" />
+    <ClCompile Include="Framework\Foundation\Threads\CThread.cpp" />
+    <ClCompile Include="Tests\Framework\Threads\CThreadTest.cpp" />
+    <ClCompile Include="Framework\Foundation\Logger\CConsoleLogWriter.cpp" />
+    <ClCompile Include="Framework\Foundation\Time\CDateTime.cpp" />
+    <ClCompile Include="Framework\Foundation\Time\CTimePoint.cpp" />
+    <ClCompile Include="Tests\Framework\Strings\CNumericConversionsTest.cpp" />
+    <ClCompile Include="Framework\Foundation\Exceptions\CException.cpp" />
+    <ClCompile Include="Framework\Foundation\Objects\CObject.cpp" />
+    <ClCompile Include="Framework\Foundation\Strings\CString.cpp" />
+    <ClCompile Include="Framework\Foundation\Console\CConsoleHelper.cpp" />
+    <ClCompile Include="CMain.cpp" />
+    <ClCompile Include="Framework\Testing\CTestManager.cpp" />
+    <ClCompile Include="Tests\Framework\Types\CFunctionTestBase.cpp" />
+    <ClCompile Include="Tests\Framework\Types\CFunctionTestClass.cpp" />
+    <ClCompile Include="Tests\Framework\Types\CFunctionTestDerived1.cpp" />
+    <ClCompile Include="Tests\Framework\Types\CFunctionTestDerived2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Foundation\Cache\CCacheEntry.h" />
+    <ClInclude Include="Framework\Foundation\Cache\CCacheEntryID.h" />
+    <ClInclude Include="Framework\Foundation\Cache\CCacheManager.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CArray.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CIterators.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CList.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CMultiMap.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CMultiSet.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CTuple.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManager.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerCallbackDispatcher.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerEventContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessage.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageID.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequest.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketAdd.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketRemove.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketWrite.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponse.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketAdd.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketClose.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketError.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketRead.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketRemove.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketWrite.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerSocketData.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerWriteOperation.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\ISocketCANManagerCallback.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCAN.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANFrame.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANID.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANReceiveFromParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANReceiveFromResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANSendToParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANSendToResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\ISocketCANWrapper.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManager.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerCallbackDispatcher.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessage.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageID.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequest.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequestDNSAddressToIPAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequestIPAddressToDNSAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponse.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponseDNSAddressToIPAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponseIPAddressToDNSAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\ISocketDNSResolverManagerCallback.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSEndpoint.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSResolver.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\ESocketDNSAddressType.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\ESocketDNSProtocolType.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\IP\CSocketIPAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\IP\CSocketIPEndpoint.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\IP\ESocketIPAddressType.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManager.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerCallbackDispatcher.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerEventContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessage.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageID.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequest.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketAdd.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketConnect.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketRemove.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketShutdown.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketWrite.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponse.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketAdd.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketClosed.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketClosing.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketConnect.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketError.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketRead.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketRemove.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketShutdown.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketWrite.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerSocketData.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerWriteOperation.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManager.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerCallbackDispatcher.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerEventContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessage.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageID.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequest.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequestSocketAdd.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequestSocketRemove.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponse.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketAccept.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketAdd.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketClose.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketError.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketRemove.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerSocketData.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\ISocketTCPClientManagerCallback.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\ISocketTCPServerManagerCallback.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPClient.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPReceiveParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPReceiveResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPSendParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPSendResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPServer.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\ESocketTCPShutdownFlags.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\ISocketTCPWrapper.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerEventContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageContext.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerWriteOperation.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerSocketData.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManager.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerCallbackDispatcher.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessage.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageID.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequest.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketAdd.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketRemove.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketWrite.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponse.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketAdd.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketRead.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketClose.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketError.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketRemove.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketWrite.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\ISocketUDPManagerCallback.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDP.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPReceiveFromParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPReceiveFromResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPSendToParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPSendToResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\ISocketUDPWrapper.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocket.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketAddress.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketEndpoint.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketID.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketLibrary.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveFromParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveFromResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendToParameters.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendToResult.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketWaitState.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ESocketWaitEvent.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ESocketWaitFlags.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ESocketWaitResultFlags.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ISocketSynchronizationObject.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ISocketWaitObject.h" />
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ISocketWrapper.h" />
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuBatchItem.h" />
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuBatchItemCollection.h" />
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuItemCommandParamsIterator.h" />
+    <ClInclude Include="Framework\Foundation\Console\EConsoleColor.h" />
+    <ClInclude Include="Framework\Foundation\Console\EConsoleMenuOnPressEnterBehavior.h" />
+    <ClInclude Include="Framework\Foundation\Events\CEvent.h" />
+    <ClInclude Include="Framework\Foundation\Events\CEventContext.h" />
+    <ClInclude Include="Framework\Foundation\Events\CEventData.h" />
+    <ClInclude Include="Framework\Foundation\Events\CEventID.h" />
+    <ClInclude Include="Framework\Foundation\Events\CEventThread.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CCommunicationException.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CEncryptionException.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CFileException.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CNullPointerException.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CStateMachineException.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\ESocketExceptionCode.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\CDirectory.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\CDirectoryEntry.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\CFile.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\CFileHelper.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\CFilePath.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\CFilePathSegment.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\CFilePathTraitsLinux.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\CFilePathTraitsWindows.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\EDirectoryEntryType.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\EFileAccessMode.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\EFileOpenMode.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\EFilePathSegmentType.h" />
+    <ClInclude Include="Framework\Foundation\FileSystem\EFileSeekMode.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CConsoleLogWriterColorSettings.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CDummyLogWriter.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CLogFilter.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CLogFilterConfiguration.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CLogFilterConfigurationItem.h" />
+    <ClInclude Include="Framework\Foundation\Logger\ILogFilter.h" />
+    <ClInclude Include="Framework\Foundation\Mathematics\CCircle2D.h" />
+    <ClInclude Include="Framework\Foundation\Mathematics\CGeometryObject.h" />
+    <ClInclude Include="Framework\Foundation\Mathematics\CLine2D.h" />
+    <ClInclude Include="Framework\Foundation\Mathematics\CMathematics.h" />
+    <ClInclude Include="Framework\Foundation\Mathematics\CPoint2D.h" />
+    <ClInclude Include="Framework\Foundation\Mathematics\CPolygon2D.h" />
+    <ClInclude Include="Framework\Foundation\Mathematics\ELine2DPointPosition.h" />
+    <ClInclude Include="Framework\Foundation\Miscellaneous\CKeyValue.h" />
+    <ClInclude Include="Framework\Foundation\Miscellaneous\CPriority.h" />
+    <ClInclude Include="Framework\Foundation\Miscellaneous\EWaitResult.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CNotImplementedException.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CInvalidCastException.h" />
+    <ClInclude Include="Framework\Foundation\Console\EConsoleMenuLayout.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CParserException.h" />
+    <ClInclude Include="Framework\Foundation\Operators\CBinaryOperators.h" />
+    <ClInclude Include="Framework\Foundation\Operators\COperatorEqualTo.h" />
+    <ClInclude Include="Framework\Foundation\Operators\COperatorGreaterThan.h" />
+    <ClInclude Include="Framework\Foundation\Operators\COperatorGreaterThanOrEqualTo.h" />
+    <ClInclude Include="Framework\Foundation\Operators\COperatorLessThan.h" />
+    <ClInclude Include="Framework\Foundation\Operators\COperatorLessThanOrEqualTo.h" />
+    <ClInclude Include="Framework\Foundation\Operators\COperatorNotEqualTo.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParser.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserByteBufferReader.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserByteBufferWriter.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserConfiguration.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserHelper.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserPacket.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserPacketData.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserPacketParseConstructor.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserParameter.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserParameterCollection.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\CParserParameterID.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\EParserEndianness.h" />
+    <ClInclude Include="Framework\Foundation\Parsing\IParser.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerItem.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerItemID.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerManager.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTime.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimeInterval.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriod.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByDay.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByHour.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByMinute.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByMonth.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByWeekDay.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByYear.h" />
+    <ClInclude Include="Framework\Foundation\Scheduler\ISchedulerManagerCallback.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithm.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmConfiguration.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameter.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterCollection.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterID.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterTime.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CEncryptionAlgorithmConfigurationNoEncryption.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CEncryptionAlgorithmNoEncryption.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CEncryptionAlgorithmConfigurationRC4.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CEncryptionAlgorithmRC4.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CRC4.h" />
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CRC4Key.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateInputs\CStateInput.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CStateMachinesProcessor.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CStateMachinesProcessorSettings.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\CStateMachine.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineCollection.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineID.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineSettings.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\IStateMachineCallback.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\StateOutputs\CStateOutput.h" />
+    <ClInclude Include="Framework\Foundation\StateMachines\States\CState.h" />
+    <ClInclude Include="Framework\Foundation\Strings\EPaddingDirection.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CAbstractMutex.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CAtomicSlim.h" />
+    <ClInclude Include="Framework\Foundation\Time\EDateTimeFragmentFormat.h" />
+    <ClInclude Include="Framework\Foundation\Time\EDayOfWeek.h" />
+    <ClInclude Include="Framework\Foundation\Types\CNullable.h" />
+    <ClInclude Include="Framework\Foundation\Types\CType.h" />
+    <ClInclude Include="Framework\Foundation\Types\SBool.h" />
+    <ClInclude Include="Framework\Foundation\Types\TypeTraits.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CByteBuffer.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CArgumentException.h" />
+    <ClInclude Include="Framework\Platform\FileSystem\CFileSystemHelper.h" />
+    <ClInclude Include="Framework\Platform\Global\CConstants.h" />
+    <ClInclude Include="Framework\Platform\Global\CFunctions.h" />
+    <ClInclude Include="Framework\Platform\Global\EFileOpenFlags.h" />
+    <ClInclude Include="Framework\Platform\Global\EFileSeekOptions.h" />
+    <ClInclude Include="Framework\Platform\Global\Macros.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketAddressHelper.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketDNSHelper.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketError.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketPlaformData.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketPlatformLibrary.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketSynchronizationObject.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketWaitObject.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketWrapperCAN.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketWrapperTCP.h" />
+    <ClInclude Include="Framework\Platform\Sockets\CSocketWrapperUDP.h" />
+    <ClInclude Include="Tests\Framework\Cache\CCacheEntryTest1.h" />
+    <ClInclude Include="Tests\Framework\Cache\CCacheEntryTest2.h" />
+    <ClInclude Include="Tests\Framework\Cache\CCacheTest.h" />
+    <ClInclude Include="Tests\Framework\Collections\CCollectionTest.h" />
+    <ClInclude Include="Tests\Framework\Communication\CCommunicationTest.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketCANManagerMenu.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketCANMenu.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketDNSMenu.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketStatistics.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketStatisticsRecord.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketTCPManagerMenu.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketTCPMenu.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPManagerMenu.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPMenu.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponse.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseCondition.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseConditionData.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseItem.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseItemData.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseManager.h" />
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseManagerMenu.h" />
+    <ClInclude Include="Tests\Framework\Communication\ESocketUDPResponseConditionDataComparisonMode.h" />
+    <ClInclude Include="Tests\Framework\Communication\ESocketUDPResponseItemDataMode.h" />
+    <ClInclude Include="Tests\Framework\FileSystem\CFileSystemTest.h" />
+    <ClInclude Include="Tests\Framework\FileSystem\CFileSystemTestPathData.h" />
+    <ClInclude Include="Tests\Framework\Mathematics\CMathematicsTest.h" />
+    <ClInclude Include="Tests\Framework\Scheduler\CSchedulerTest.h" />
+    <ClInclude Include="Tests\Framework\Security\CEncryptionTest.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInput1.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInput2.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInput3.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInput4.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInputAddChildStateMachine.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInputChangeState.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInputSendStateOutput.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInputUnsupported.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachinesProcessors\CTestStateMachinesProcessor.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachinesProcessors\CTestStateMachinesProcessorSettings.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine1.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine2.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine3.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine4.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException1.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException2.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException3.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException4.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings1.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings2.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings3.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings4.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings1.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings2.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings3.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings4.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettingsBasicTests.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineBasicTests.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineThrowException.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\ETestStateMachineThrowExceptionType.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput1.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput2.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput3.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput4.h" />
+    <ClInclude Include="Tests\Framework\StateMachines\Tests\CStateMachineTest.h" />
+    <ClInclude Include="Tests\Framework\Threads\CAutoResetMultiEventThread.h" />
+    <ClInclude Include="Tests\Framework\Threads\CLongLivingThread.h" />
+    <ClInclude Include="Tests\Framework\Threads\CManualResetMultiEventThread.h" />
+    <ClInclude Include="Tests\Framework\Threads\CShortLivingThread.h" />
+    <ClInclude Include="Tests\Framework\Threads\CThreadWithStopRequestedEvent.h" />
+    <ClInclude Include="Tests\Framework\Types\CFunctionTestClass.h" />
+    <ClInclude Include="Tests\Framework\Types\CFunctionTest.h" />
+    <ClInclude Include="Tests\Framework\Types\CFunctionTestBase.h" />
+    <ClInclude Include="Tests\Framework\Types\CFunctionTestDerived1.h" />
+    <ClInclude Include="Tests\Framework\Types\CFunctionTestDerived2.h" />
+    <ClInclude Include="Framework\Foundation\Console\EConsoleMenuItemType.h" />
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenu.h" />
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuItem.h" />
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuItemCollection.h" />
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuItemCommandParams.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CSocketException.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CSet.h" />
+    <ClInclude Include="Framework\Foundation\Collections\IEnumerableConst.h" />
+    <ClInclude Include="Framework\Foundation\Collections\IEnumeratorConst.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CPair.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CMap.h" />
+    <ClInclude Include="Framework\Foundation\Collections\IIsBeforeComparator.h" />
+    <ClInclude Include="Framework\Foundation\Miscellaneous\CRandom.h" />
+    <ClInclude Include="Framework\Foundation\Miscellaneous\CID.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CTSDequeue.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CDequeue.h" />
+    <ClInclude Include="Framework\Foundation\Types\CSharedPointer.h" />
+    <ClInclude Include="Tests\Framework\Threads\CMyThread3.h" />
+    <ClInclude Include="Tests\Framework\Threads\CMyThread2.h" />
+    <ClInclude Include="Tests\Framework\Threads\CMyThread1.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CAutoResetMultiEvent.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CManualResetMultiEvent.h" />
+    <ClInclude Include="Framework\Foundation\Time\CSteadyClock.h" />
+    <ClInclude Include="Framework\Foundation\Time\CExpirationTime.h" />
+    <ClInclude Include="Framework\Foundation\Time\CStopWatch.h" />
+    <ClInclude Include="Framework\Foundation\Time\CTimeout.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CInvalidOperationException.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CUnknownException.h" />
+    <ClInclude Include="Framework\Foundation\Types\ICallableObject.h" />
+    <ClInclude Include="Framework\Foundation\Threads\EThreadState.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CThread.h" />
+    <ClInclude Include="Framework\Foundation\Types\CFunction.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CAtomic.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CSystemException.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CMutex.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CLock.h" />
+    <ClInclude Include="Framework\Foundation\Types\CMethod.h" />
+    <ClInclude Include="Tests\Framework\Threads\CThreadTest.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CAutoResetEvent.h" />
+    <ClInclude Include="Framework\Foundation\Threads\CManualResetEvent.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CConsoleLogWriter.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CLogWriter.h" />
+    <ClInclude Include="Framework\Foundation\Logger\ELogRecordLevel.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CLogCategory.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CLogRecord.h" />
+    <ClInclude Include="Framework\Foundation\Logger\CLogSource.h" />
+    <ClInclude Include="Framework\Foundation\Time\CDateTime.h" />
+    <ClInclude Include="Framework\Foundation\Collections\IEnumerable.h" />
+    <ClInclude Include="Framework\Foundation\Collections\IEnumerator.h" />
+    <ClInclude Include="Framework\Foundation\Collections\CVector.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CValueOutOfRangeException.h" />
+    <ClInclude Include="Framework\Foundation\Strings\CFloatFormatter.h" />
+    <ClInclude Include="Framework\Foundation\Strings\CIntegerFormatter.h" />
+    <ClInclude Include="Framework\Foundation\Time\CTimePoint.h" />
+    <ClInclude Include="Tests\Framework\Strings\CNumericConversionsTest.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CInvalidValueException.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\COutOfMemoryException.h" />
+    <ClInclude Include="Framework\Foundation\Strings\EIntegerFormat.h" />
+    <ClInclude Include="Framework\Foundation\Types\CPrimitiveType.h" />
+    <ClInclude Include="Framework\Foundation\Strings\IValueFormatter.h" />
+    <ClInclude Include="Framework\Foundation\Exceptions\CException.h" />
+    <ClInclude Include="Framework\Foundation\Strings\CString.h" />
+    <ClInclude Include="Framework\Foundation\Objects\CObject.h" />
+    <ClInclude Include="Framework\Foundation\Console\CConsoleHelper.h" />
+    <ClInclude Include="Framework\Foundation\Types\Types.h" />
+    <ClInclude Include="Framework\Testing\CTest.h" />
+    <ClInclude Include="Framework\Testing\CTestManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Framework\Foundation\Logger\ELogRecordType.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="NatvisFile.natvis" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59B6E1A7-A5A1-425E-B067-0C71E356F31F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CPPFoundation</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)BINARIES\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BINARIES\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)BINARIES\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BINARIES\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)BINARIES\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BINARIES\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)BINARIES\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BINARIES\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>PLATFORM_WINDOWS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>
+      </LanguageStandard>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>PLATFORM_WINDOWS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>
+      </LanguageStandard>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>PLATFORM_WINDOWS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>
+      </LanguageStandard>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Ws2_32.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>PLATFORM_WINDOWS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <AssemblerOutput>
+      </AssemblerOutput>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>
+      </LanguageStandard>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Ws2_32.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

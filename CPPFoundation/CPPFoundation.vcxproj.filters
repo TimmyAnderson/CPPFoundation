@@ -1,0 +1,2993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{d46f31b5-d12f-4f39-ba43-dc9b51ac082a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{7d37220f-ef78-4b84-b338-c2e3b0cfd19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Platform">
+      <UniqueIdentifier>{46910fa8-e581-4ea7-a708-59ce8c961286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation">
+      <UniqueIdentifier>{f78ab9d8-959b-4f43-acc4-365cf864c96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Console">
+      <UniqueIdentifier>{59be1d31-a3a7-4733-9a0f-9b5df07c0702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Console\CPP">
+      <UniqueIdentifier>{1ce519b2-9305-4933-ab28-7055d65b6050}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Console\H">
+      <UniqueIdentifier>{03e132dc-834f-44cb-8e10-ab86c9df4fa1}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Strings">
+      <UniqueIdentifier>{b5eef3b4-391e-4aee-a8e4-075726a93c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Strings\H">
+      <UniqueIdentifier>{09eca623-4033-4b0a-af5a-4fd22017799d}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Strings\CPP">
+      <UniqueIdentifier>{d7b5fbac-bd7b-438d-98d5-8590832b007b}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Objects">
+      <UniqueIdentifier>{7e9b9447-c6ed-492e-843a-da40130e920b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Objects\H">
+      <UniqueIdentifier>{6f283bd7-48ec-46b5-8ddf-5eb2734a8fdd}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Objects\CPP">
+      <UniqueIdentifier>{a918fb44-144a-4fe9-a312-ab378317f417}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Exceptions">
+      <UniqueIdentifier>{3c2c95e1-3bf0-4348-8a77-44d6b18d6ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Exceptions\H">
+      <UniqueIdentifier>{3520551b-8842-4d0f-b836-9e8535bc82d2}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Exceptions\CPP">
+      <UniqueIdentifier>{1d243974-3609-45c3-beba-4e7c3a623548}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Types">
+      <UniqueIdentifier>{7a6b4aa2-4dc4-475e-a6f4-99b231cd8378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Types\H">
+      <UniqueIdentifier>{73c02809-6711-4b5c-b6b1-7844bc20a429}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Collections">
+      <UniqueIdentifier>{4b6b28c0-80ee-4f28-bd2c-c6040100d981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Collections\H">
+      <UniqueIdentifier>{abc39435-1c46-44ae-9e8f-9b22c3b7a371}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Time">
+      <UniqueIdentifier>{b96446dc-f59a-4a7c-83b2-da05a31de7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Time\H">
+      <UniqueIdentifier>{24deb12c-7f17-431d-92a5-e3e4b27be61b}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Time\CPP">
+      <UniqueIdentifier>{5993b65f-9144-4ca6-9677-68ec901ceeed}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Logger">
+      <UniqueIdentifier>{088b9f36-33dd-496c-b286-3d0318096c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Logger\H">
+      <UniqueIdentifier>{39f944a5-bd3d-416c-8fc6-196afd4484e0}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Logger\CPP">
+      <UniqueIdentifier>{e55a2647-7fa6-4d17-8147-7060a828fa8e}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Threads">
+      <UniqueIdentifier>{b0391828-a939-426c-82fd-667372ad8cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Threads\CPP">
+      <UniqueIdentifier>{1e86775e-27fd-4619-918d-c7a378453acc}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Threads\H">
+      <UniqueIdentifier>{5d8117c5-38f0-421b-acff-bf2719a20e46}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Miscellaneous">
+      <UniqueIdentifier>{9e038e2c-49bd-4bd1-9796-645f4b91a7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Miscellaneous\H">
+      <UniqueIdentifier>{5d31e915-b3bd-4821-b141-1873f280c03e}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Miscellaneous\CPP">
+      <UniqueIdentifier>{89d82e50-ce66-4c3f-a2a2-90a3d270a5c8}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Testing">
+      <UniqueIdentifier>{32943175-e1d4-40b4-ac96-718291aac674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Testing\H">
+      <UniqueIdentifier>{ec144125-8dda-48f9-8b9d-0d24725bc04c}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Testing\CPP">
+      <UniqueIdentifier>{8f40f579-11ff-4e87-8d9a-f6c7a0134317}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Parsing">
+      <UniqueIdentifier>{9856b975-1a05-4a75-b398-a246b3340b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Parsing\H">
+      <UniqueIdentifier>{374bc638-09dc-43b7-be74-24c96a30dc3c}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Parsing\CPP">
+      <UniqueIdentifier>{06397423-fcc6-4193-8ef5-e31be9a85d22}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework">
+      <UniqueIdentifier>{5193f947-685f-4d27-8444-bb6a8ff01ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Types">
+      <UniqueIdentifier>{27a4bcba-d2c8-4754-9667-78987313e5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Threads">
+      <UniqueIdentifier>{5afc307d-9f22-4712-962b-6664c65ffd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Types\H">
+      <UniqueIdentifier>{b34b5946-b74b-499a-8ec2-8ee474918237}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Threads\H">
+      <UniqueIdentifier>{3c104f6f-5d66-44f5-93fe-b5acb9de8c9c}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Strings">
+      <UniqueIdentifier>{f2c02b50-9fc5-4f0d-9330-eceb1aced8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Strings\H">
+      <UniqueIdentifier>{94d0f691-58f7-4f73-8300-0c6e06f26669}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Strings\CPP">
+      <UniqueIdentifier>{d7862dc0-e4f4-46bd-8ef3-7c8216dc049a}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Threads\CPP">
+      <UniqueIdentifier>{b0b5101d-bc7d-4a19-b122-fde9f02a0c01}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Types\CPP">
+      <UniqueIdentifier>{a23b8db3-7d0f-48f2-9c49-6dbccc031a7d}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Events">
+      <UniqueIdentifier>{863e95ee-b243-4d8a-b4b8-7ab29e0dbd3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Events\H">
+      <UniqueIdentifier>{67e7eb41-a2fd-4727-849b-a5a82b10fd41}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines">
+      <UniqueIdentifier>{fb561bcb-8982-484d-a2eb-a9e7e59988e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateInputs">
+      <UniqueIdentifier>{63ddb1eb-d6eb-4408-a59d-7aa533307954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateMachines">
+      <UniqueIdentifier>{5b3d3252-9cef-40c1-bccb-4fcf3d3fcb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\States">
+      <UniqueIdentifier>{ff660bef-37e0-49ee-94f6-055bbf13f447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateMachinesProcessor">
+      <UniqueIdentifier>{e4649942-5f7b-4c7d-aff4-36d5d398665e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateInputs\H">
+      <UniqueIdentifier>{279befd8-681d-40eb-9767-123450fc741e}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateMachines\H">
+      <UniqueIdentifier>{91042b7a-1094-4697-aefe-4a0c23901836}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateMachines\CPP">
+      <UniqueIdentifier>{257b3d00-7c55-4c6b-b183-a562c766254f}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateMachinesProcessor\H">
+      <UniqueIdentifier>{80e3c94c-4be3-4db5-bb4f-899cebe215e2}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\States\H">
+      <UniqueIdentifier>{abb4677a-9268-4b81-931e-80ab60a1a69b}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CPP">
+      <UniqueIdentifier>{5de2f2bb-8a13-468e-a137-8a004ed60d98}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\States\CPP">
+      <UniqueIdentifier>{e2b3753e-7c86-4277-be80-186a046e743e}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateOutputs">
+      <UniqueIdentifier>{184a9225-e430-4e25-b00d-b3918241c8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateOutputs\H">
+      <UniqueIdentifier>{d59991ff-878a-41d1-a539-48a7a924e7d7}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Operators">
+      <UniqueIdentifier>{8c55a0c8-8d4d-4201-b998-6c73b5d95b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Operators\H">
+      <UniqueIdentifier>{f778b3e4-d3e6-4359-8cd7-868b7f5c0e86}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Mathematics">
+      <UniqueIdentifier>{ecfa10a5-fdbc-45d5-8cd5-8618644688ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Mathematics\CPP">
+      <UniqueIdentifier>{40b7ebe3-feb2-4ce8-978f-3160daa27c61}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Mathematics\H">
+      <UniqueIdentifier>{9226afdf-cbb4-4ed8-87f1-4a9f45a6601c}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Mathematics">
+      <UniqueIdentifier>{27960d1e-eec8-4eb1-a9f7-da7309716f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Mathematics\CPP">
+      <UniqueIdentifier>{aec36fad-706f-4088-b513-3cefdbcd3c23}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Mathematics\H">
+      <UniqueIdentifier>{363d913f-8ff6-4c42-be78-9b1101bd7770}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Scheduler">
+      <UniqueIdentifier>{296218f5-019a-493a-a42e-00f8ab11c248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Scheduler\CPP">
+      <UniqueIdentifier>{99300a6b-75d9-414d-b4cf-64fd875f3784}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Scheduler\H">
+      <UniqueIdentifier>{ac3a97b0-3fc6-48c0-85dd-59272cbfcfb8}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Scheduler">
+      <UniqueIdentifier>{55792774-da86-4cc6-8778-358aab6d3c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Scheduler\CPP">
+      <UniqueIdentifier>{958cd76a-1202-4c96-84e6-182666d7822b}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Scheduler\H">
+      <UniqueIdentifier>{4cc5cdd9-d13c-4d3a-bf53-c635de00876e}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Collections\CPP">
+      <UniqueIdentifier>{5372bfe4-b18e-44ff-910e-d09c4871fa8c}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\FileSystem">
+      <UniqueIdentifier>{5e58d64e-fbc9-4540-b8c3-117222f6d70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\FileSystem\CPP">
+      <UniqueIdentifier>{736652cb-a91c-47a0-b153-cf8e8b1de0bc}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\FileSystem\H">
+      <UniqueIdentifier>{41ba113a-f8f6-487f-ae9d-683b9c56ecf5}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\FileSystem">
+      <UniqueIdentifier>{951b326a-9fdf-462f-87ca-cfc7d8e295d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\FileSystem\CPP">
+      <UniqueIdentifier>{8b556310-ce7d-4a46-89d6-3bfbaa98d0dd}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\FileSystem\H">
+      <UniqueIdentifier>{fec4e86a-29b9-4183-ba94-8737a4531a8b}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication">
+      <UniqueIdentifier>{ccdd31f8-1912-4930-b60e-84ff02361047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking">
+      <UniqueIdentifier>{06a2ecfd-18bf-48eb-a359-814e49a086c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Sockets">
+      <UniqueIdentifier>{5a9db5e1-b5e7-4faa-a2e0-a55adede646b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Sockets\CPP">
+      <UniqueIdentifier>{ed2d5b45-3d8f-49cd-9de8-656fd5132a13}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Sockets\H">
+      <UniqueIdentifier>{67015f63-0690-4948-86af-9b19f169c627}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols">
+      <UniqueIdentifier>{7a8ebb78-6086-4962-bfe4-b4f6c0272e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\IP">
+      <UniqueIdentifier>{383184aa-a59a-49e3-b354-018d0a8347d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\IP\CPP">
+      <UniqueIdentifier>{1b039c75-5e11-4047-9372-b09d61eb46aa}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\IP\H">
+      <UniqueIdentifier>{d01ae368-d60d-40ec-b990-226bdd878931}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\CAN">
+      <UniqueIdentifier>{e6de7efd-1f41-432b-8807-9a935b887d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\UDP">
+      <UniqueIdentifier>{fda2f2bd-d641-4611-abde-ef030ef8b940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager">
+      <UniqueIdentifier>{e919849f-98db-4141-a054-eac8347a9ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager">
+      <UniqueIdentifier>{2cf7cd7a-1c41-46ca-acb2-cb34d4288c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket">
+      <UniqueIdentifier>{4a67ae47-7298-4374-b91d-fa89b955c803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket">
+      <UniqueIdentifier>{2e0bbde4-ffda-42c9-8626-d4920da3e714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CPP">
+      <UniqueIdentifier>{3efe30c5-8f84-4e4c-8c56-f9c933c93927}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\H">
+      <UniqueIdentifier>{aaec61ed-9d26-46bf-995e-24e083ae5987}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Communication">
+      <UniqueIdentifier>{54a9bb30-5622-4133-9e3a-8d70e3a358e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Communication\H">
+      <UniqueIdentifier>{cea75339-22de-46af-bad9-968668cfd669}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Communication\CPP">
+      <UniqueIdentifier>{711955fb-5074-4ba4-9550-91effa97f4f2}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP">
+      <UniqueIdentifier>{738780a4-be03-4e29-b124-fe49267caac1}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H">
+      <UniqueIdentifier>{1710dcf8-921f-4535-956c-0b7414263188}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Platform\Global">
+      <UniqueIdentifier>{b9c45d5d-3acd-432c-b3d9-046c4194c7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Platform\Sockets">
+      <UniqueIdentifier>{d3eba284-3cf3-40a4-8067-771a86f65250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Platform\Sockets\CPP">
+      <UniqueIdentifier>{1e094b9d-5eb8-4145-9af5-5e6019c63e2f}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Platform\Sockets\H">
+      <UniqueIdentifier>{570b89e6-e1b1-41d1-8bb5-4f410b9492a4}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Platform\Global\CPP">
+      <UniqueIdentifier>{2b44824d-f006-4235-847e-9f021721d10d}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Platform\Global\H">
+      <UniqueIdentifier>{2c0f4b8b-fa0f-46e1-98cf-967a24f0599b}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP">
+      <UniqueIdentifier>{afa23294-0a7e-4720-ab61-a554dce36ed3}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H">
+      <UniqueIdentifier>{551c5bd7-8451-457c-b427-9dce2cb837d8}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP">
+      <UniqueIdentifier>{8190a99a-f878-4c8a-9ea1-98d1841c4920}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H">
+      <UniqueIdentifier>{d0cc12d1-e117-4f67-ab59-4c7b129f5358}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\TCP">
+      <UniqueIdentifier>{b96de640-3512-4b77-a777-951abdb151c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager">
+      <UniqueIdentifier>{60ebfd94-3a62-4383-9c3b-96e395017176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket">
+      <UniqueIdentifier>{c7665f58-fe31-4b64-b3b1-58435d1942fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP">
+      <UniqueIdentifier>{09771806-0606-47f0-8045-eeb7d71e9f6b}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H">
+      <UniqueIdentifier>{03436385-c56d-4bcc-8013-998dcbafb0c5}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP">
+      <UniqueIdentifier>{77341932-d003-499e-a11c-ffea7289a182}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H">
+      <UniqueIdentifier>{fbe706fc-6f1b-47b8-84ab-4c9bd4dd88f9}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines">
+      <UniqueIdentifier>{345b432f-95e0-4a94-ab94-2a697f1f1d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateInputs">
+      <UniqueIdentifier>{f9c2a524-dca5-4942-b5ee-bb2698ba9664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateOutputs">
+      <UniqueIdentifier>{6eff56c5-929c-4a70-8c66-d1068bbea150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateMachines">
+      <UniqueIdentifier>{53faef88-1c7f-42da-aa48-f89791b6b81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateMachinesProcessors">
+      <UniqueIdentifier>{45fdaef5-3921-4d7c-b824-3234eea4971c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateMachinesProcessors\CPP">
+      <UniqueIdentifier>{eba46ce0-1248-438d-a4bd-6e5377d8a4a4}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateMachines\CPP">
+      <UniqueIdentifier>{afd7e52d-555e-4cef-aed7-9c837d0cdb4c}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateOutputs\CPP">
+      <UniqueIdentifier>{1cba4b36-8603-4345-b7e9-96bda3f0cb6b}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateInputs\CPP">
+      <UniqueIdentifier>{7c3c0626-7fb0-4240-a942-4953266efa1a}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateMachinesProcessors\H">
+      <UniqueIdentifier>{41a47b7b-cf21-406c-916e-26607c48ec4c}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateMachines\H">
+      <UniqueIdentifier>{c2ed957c-bc78-4e83-9452-ccb5812f8850}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateOutputs\H">
+      <UniqueIdentifier>{e068ee2a-70ce-42e2-a879-4f08717b73a5}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\StateInputs\H">
+      <UniqueIdentifier>{e08a4b54-b35c-4771-8d92-015927b9148b}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateInputs\CPP">
+      <UniqueIdentifier>{49138d78-26d6-489d-94bb-d8ef1414f11e}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\StateMachines\StateOutputs\CPP">
+      <UniqueIdentifier>{c83242b7-8793-4724-96db-876bc86f6d4a}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\Tests">
+      <UniqueIdentifier>{20488d5d-eaf6-420d-95e8-0a2f23c7fa53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\Tests\CPP">
+      <UniqueIdentifier>{67108dc3-cddc-4315-b53b-119ff9836af6}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\StateMachines\Tests\H">
+      <UniqueIdentifier>{59a616b5-f495-484c-81a7-0d1e10b254c7}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\DNS">
+      <UniqueIdentifier>{56b19268-5c50-400c-8392-5129f284b3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Types\CPP">
+      <UniqueIdentifier>{80c2ade0-f01a-4595-8462-4c14150ef193}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Events\CPP">
+      <UniqueIdentifier>{b13fa065-e506-4071-a9db-7cb0ab736641}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver">
+      <UniqueIdentifier>{19ddf178-dce0-44fa-9a56-917994bc80ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CPP">
+      <UniqueIdentifier>{d1f40291-7135-4a2c-ac15-c1e00fa8619c}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\H">
+      <UniqueIdentifier>{a2bf4bbf-55d0-448e-ba17-9a3236ce1893}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager">
+      <UniqueIdentifier>{f3963585-f7f0-4412-8628-fef5197699c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP">
+      <UniqueIdentifier>{4769b546-e53c-4b62-a393-50819a621748}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H">
+      <UniqueIdentifier>{15bd775b-e971-4a95-ba73-02bf8a7227df}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security">
+      <UniqueIdentifier>{a88f6890-341b-459a-a9df-86a83ea4ff3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption">
+      <UniqueIdentifier>{2ac670e4-ad64-49ac-8355-c98664068746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms">
+      <UniqueIdentifier>{c7ce5d0c-3f73-418e-bbc2-f5e661791e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\RC4">
+      <UniqueIdentifier>{38d08016-a71e-4ba7-8867-874a21c1e065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\Base">
+      <UniqueIdentifier>{8d2b9616-1f01-441b-9512-050eac55e691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\Base\H">
+      <UniqueIdentifier>{f1af4c89-e925-4214-ab13-623ad2da97a7}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CPP">
+      <UniqueIdentifier>{d429f7a3-2b8d-4beb-97f5-00f6e86f5045}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption">
+      <UniqueIdentifier>{d4ce0040-7df1-4349-aded-0254950d04e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CPP">
+      <UniqueIdentifier>{867871f8-2285-47ab-b670-e78b43294c8c}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\H">
+      <UniqueIdentifier>{0e7368d4-fb81-4e05-8703-72238e2ad425}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CPP">
+      <UniqueIdentifier>{c5fde46d-b5c2-4ee0-8421-4731e8c3b090}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\H">
+      <UniqueIdentifier>{fa11a15b-59d8-47c0-9faf-0f39ba5339ad}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Security">
+      <UniqueIdentifier>{b3b251f1-0bb0-40e3-ab03-17f8f969e853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Security\CPP">
+      <UniqueIdentifier>{f1007077-70db-4248-9402-3d411ee9e7cc}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Security\H">
+      <UniqueIdentifier>{f10bc4b0-fa5d-4262-9691-de55dcd6c1e3}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Collections">
+      <UniqueIdentifier>{4bdd27a3-1ad1-4831-b0de-b76bc478689d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Collections\CPP">
+      <UniqueIdentifier>{455c5b02-7ae2-44ae-9045-011a0c7eb5ae}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Collections\H">
+      <UniqueIdentifier>{99173b0f-f564-4668-ad0d-7ca8a10f71aa}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Cache">
+      <UniqueIdentifier>{6491cf02-9ca1-4fd1-b9a8-37c1bec49d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Foundation\Cache\CPP">
+      <UniqueIdentifier>{6a01c175-3e40-4437-9caf-1067bcd30424}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Framework\Foundation\Cache\H">
+      <UniqueIdentifier>{5f05769f-e86f-44eb-ac49-2ae1669568a4}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Cache">
+      <UniqueIdentifier>{02134fd0-9c6f-4306-b80b-ecd1eacb25da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Framework\Cache\CPP">
+      <UniqueIdentifier>{64a393e6-fc4c-4c10-9bad-6b5f10cdf279}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Tests\Framework\Cache\H">
+      <UniqueIdentifier>{ffcc7531-c2a1-4752-a8ab-9dc3c4017c47}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Platform\FileSystem">
+      <UniqueIdentifier>{fe31423f-618b-4266-84c4-45efa1526b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Platform\FileSystem\H">
+      <UniqueIdentifier>{3ee64f8f-2f26-4028-8bba-40aa9f452c2d}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Framework\Platform\FileSystem\CPP">
+      <UniqueIdentifier>{8e648ccb-bc58-45a9-8755-02b96e469206}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMain.cpp" />
+    <ClCompile Include="Framework\Foundation\Console\CConsoleHelper.cpp">
+      <Filter>Framework\Foundation\Console\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenu.cpp">
+      <Filter>Framework\Foundation\Console\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenuItem.cpp">
+      <Filter>Framework\Foundation\Console\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenuItemCollection.cpp">
+      <Filter>Framework\Foundation\Console\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenuItemCommandParams.cpp">
+      <Filter>Framework\Foundation\Console\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CConsoleLogWriter.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Miscellaneous\CID.cpp">
+      <Filter>Framework\Foundation\Miscellaneous\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Objects\CObject.cpp">
+      <Filter>Framework\Foundation\Objects\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Strings\CString.cpp">
+      <Filter>Framework\Foundation\Strings\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Threads\CThread.cpp">
+      <Filter>Framework\Foundation\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Time\CDateTime.cpp">
+      <Filter>Framework\Foundation\Time\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Time\CExpirationTime.cpp">
+      <Filter>Framework\Foundation\Time\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Time\CStopWatch.cpp">
+      <Filter>Framework\Foundation\Time\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Time\CTimeout.cpp">
+      <Filter>Framework\Foundation\Time\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Time\CTimePoint.cpp">
+      <Filter>Framework\Foundation\Time\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Testing\CTestManager.cpp">
+      <Filter>Framework\Testing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserHelper.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Types\CFunctionTest.cpp">
+      <Filter>Tests\Framework\Types\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Strings\CNumericConversionsTest.cpp">
+      <Filter>Tests\Framework\Strings\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CThreadTest.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserByteBufferReader.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserByteBufferWriter.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\States\CState.cpp">
+      <Filter>Framework\Foundation\StateMachines\States\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CStateMachinesProcessor.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateMachinesProcessor\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\CStateMachine.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Miscellaneous\CPriority.cpp">
+      <Filter>Framework\Foundation\Miscellaneous\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineCollection.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CLogWriter.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CLogFilter.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Time\CSteadyClock.cpp">
+      <Filter>Framework\Foundation\Time\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Mathematics\CPoint2D.cpp">
+      <Filter>Framework\Foundation\Mathematics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Mathematics\CLine2D.cpp">
+      <Filter>Framework\Foundation\Mathematics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Mathematics\CPolygon2D.cpp">
+      <Filter>Framework\Foundation\Mathematics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Mathematics\CMathematicsTest.cpp">
+      <Filter>Tests\Framework\Mathematics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Mathematics\CCircle2D.cpp">
+      <Filter>Framework\Foundation\Mathematics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Mathematics\CGeometryObject.cpp">
+      <Filter>Framework\Foundation\Mathematics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTime.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByYear.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByWeekDay.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByMonth.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByMinute.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByHour.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriod.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByDay.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Scheduler\CSchedulerTest.cpp">
+      <Filter>Tests\Framework\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerItem.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerManager.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Collections\CByteBuffer.cpp">
+      <Filter>Framework\Foundation\Collections\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\FileSystem\CFileSystemTest.cpp">
+      <Filter>Tests\Framework\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\IP\CSocketIPAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\IP\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketCANManagerMenu.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketCANMenu.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPManagerMenu.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPMenu.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CCommunicationTest.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\IP\CSocketIPEndpoint.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\IP\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANID.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANFrame.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocket.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveFromParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendToParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveFromResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendToResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDP.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCAN.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketWrapperUDP.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketWrapperCAN.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Global\CConstants.cpp">
+      <Filter>Framework\Platform\Global\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Global\CFunctions.cpp">
+      <Filter>Framework\Platform\Global\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketLibrary.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketError.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketWaitObject.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketSynchronizationObject.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketPlaformData.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManager.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponse.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequest.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessage.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerCallbackDispatcher.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketWrite.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketRead.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketError.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketClose.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketWrite.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketAdd.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketRemove.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketAdd.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketRemove.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketWaitState.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerWriteOperation.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerSocketData.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPReceiveFromParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPReceiveFromResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPSendToParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPSendToResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerTimeInterval.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANReceiveFromParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANReceiveFromResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANSendToParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANSendToResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketPlatformLibrary.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Threads\CAutoResetEvent.cpp">
+      <Filter>Framework\Foundation\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Threads\CManualResetEvent.cpp">
+      <Filter>Framework\Foundation\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Threads\CMutex.cpp">
+      <Filter>Framework\Foundation\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Threads\CLock.cpp">
+      <Filter>Framework\Foundation\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerWriteOperation.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerSocketData.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketWrite.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketRemove.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketRead.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketError.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketClose.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketAdd.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponse.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketWrite.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketRemove.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketAdd.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequest.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessage.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerCallbackDispatcher.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManager.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketWrapperTCP.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPReceiveParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPReceiveResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPSendParameters.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPSendResult.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPClient.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPServer.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketTCPMenu.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessage.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessage.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequest.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponse.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequest.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponse.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketRead.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketWrite.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketConnect.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketConnect.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketAdd.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketRemove.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketAdd.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketRemove.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketShutdown.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketShutdown.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketAccept.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequestSocketAdd.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequestSocketRemove.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketAdd.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketRemove.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerCallbackDispatcher.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerCallbackDispatcher.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerWriteOperation.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketWrite.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerSocketData.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManager.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketTCPManagerMenu.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManager.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerSocketData.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketClosing.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketClosed.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketClose.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketError.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketStatisticsRecord.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketStatistics.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseManager.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponse.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseItem.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseManagerMenu.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseCondition.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CValueOutOfRangeException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CUnknownException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CSystemException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CStateMachineException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CSocketException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CParserException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\COutOfMemoryException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CNullPointerException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CNotImplementedException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CInvalidValueException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CInvalidOperationException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CInvalidCastException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CFileException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CCommunicationException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CArgumentException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Miscellaneous\CKeyValue.cpp">
+      <Filter>Framework\Foundation\Miscellaneous\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CLogSource.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CLogCategory.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CLogFilterConfigurationItem.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CLogFilterConfiguration.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateInputs\CStateInput.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateOutputs\CStateOutput.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateOutputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInput1.cpp">
+      <Filter>Tests\Framework\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInput2.cpp">
+      <Filter>Tests\Framework\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInput3.cpp">
+      <Filter>Tests\Framework\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput1.cpp">
+      <Filter>Tests\Framework\StateMachines\StateOutputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput2.cpp">
+      <Filter>Tests\Framework\StateMachines\StateOutputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput3.cpp">
+      <Filter>Tests\Framework\StateMachines\StateOutputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CLogRecord.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineID.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineSettings.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketID.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageID.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageID.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageID.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\CSchedulerItemID.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInputAddChildStateMachine.cpp">
+      <Filter>Tests\Framework\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException3.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException2.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException1.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine3.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine2.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine1.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineThrowException.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings3.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings2.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings1.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings3.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings1.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings2.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInputSendStateOutput.cpp">
+      <Filter>Tests\Framework\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInputChangeState.cpp">
+      <Filter>Tests\Framework\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachinesProcessors\CTestStateMachinesProcessor.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachinesProcessors\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachinesProcessors\CTestStateMachinesProcessorSettings.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachinesProcessors\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CStateMachinesProcessorSettings.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateMachinesProcessor\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\Tests\CStateMachineTest.cpp">
+      <Filter>Tests\Framework\StateMachines\Tests\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Testing\CTest.cpp">
+      <Filter>Framework\Testing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketDNSHelper.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketDNSMenu.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Threads\CAbstractMutex.cpp">
+      <Filter>Framework\Foundation\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\Sockets\CSocketAddressHelper.cpp">
+      <Filter>Framework\Platform\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParser.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserConfiguration.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserPacket.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserPacketData.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserPacketParseConstructor.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserParameter.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserParameterCollection.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\CParserParameterID.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings4.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings4.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException4.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine4.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineBasicTests.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettingsBasicTests.cpp">
+      <Filter>Tests\Framework\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput4.cpp">
+      <Filter>Tests\Framework\StateMachines\StateOutputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInput4.cpp">
+      <Filter>Tests\Framework\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\StateMachines\StateInputs\CStateInputUnsupported.cpp">
+      <Filter>Tests\Framework\StateMachines\StateInputs\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Types\SBool.cpp">
+      <Filter>Framework\Foundation\Types\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Events\CEventContext.cpp">
+      <Filter>Framework\Foundation\Events\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Events\CEventID.cpp">
+      <Filter>Framework\Foundation\Events\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerEventContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerEventContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerEventContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerEventContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSResolver.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManager.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerCallbackDispatcher.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessage.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageID.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequest.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponse.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageContext.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Exceptions\CEncryptionException.cpp">
+      <Filter>Framework\Foundation\Exceptions\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmConfiguration.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameter.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterCollection.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterID.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithm.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CEncryptionAlgorithmConfigurationNoEncryption.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CEncryptionAlgorithmNoEncryption.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CEncryptionAlgorithmConfigurationRC4.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\RC4\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CEncryptionAlgorithmRC4.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\RC4\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CRC4.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\RC4\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CRC4Key.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\RC4\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Security\CEncryptionTest.cpp">
+      <Filter>Tests\Framework\Security\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Collections\CCollectionTest.cpp">
+      <Filter>Tests\Framework\Collections\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequestDNSAddressToIPAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequestIPAddressToDNSAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponseIPAddressToDNSAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponseDNSAddressToIPAddress.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSEndpoint.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Cache\CCacheEntry.cpp">
+      <Filter>Framework\Foundation\Cache\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Cache\CCacheEntryID.cpp">
+      <Filter>Framework\Foundation\Cache\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Cache\CCacheManager.cpp">
+      <Filter>Framework\Foundation\Cache\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Cache\CCacheTest.cpp">
+      <Filter>Tests\Framework\Cache\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Cache\CCacheEntryTest1.cpp">
+      <Filter>Tests\Framework\Cache\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Cache\CCacheEntryTest2.cpp">
+      <Filter>Tests\Framework\Cache\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Console\CConsoleMenuItemCommandParamsIterator.cpp">
+      <Filter>Framework\Foundation\Console\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CDummyLogWriter.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterTime.cpp">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\FileSystem\CFileSystemTestPathData.cpp">
+      <Filter>Tests\Framework\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\FileSystem\CFilePathSegment.cpp">
+      <Filter>Framework\Foundation\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\FileSystem\CFilePathTraitsLinux.cpp">
+      <Filter>Framework\Foundation\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\FileSystem\CFilePathTraitsWindows.cpp">
+      <Filter>Framework\Foundation\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Platform\FileSystem\CFileSystemHelper.cpp">
+      <Filter>Framework\Platform\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\FileSystem\CFile.cpp">
+      <Filter>Framework\Foundation\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\FileSystem\CFileHelper.cpp">
+      <Filter>Framework\Foundation\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\FileSystem\CDirectoryEntry.cpp">
+      <Filter>Framework\Foundation\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\FileSystem\CDirectory.cpp">
+      <Filter>Framework\Foundation\FileSystem\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\CSocketEndpoint.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageID.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CMyThread1.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CMyThread2.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CMyThread3.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Types\CFunctionTestBase.cpp">
+      <Filter>Tests\Framework\Types\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Types\CFunctionTestClass.cpp">
+      <Filter>Tests\Framework\Types\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Types\CFunctionTestDerived1.cpp">
+      <Filter>Tests\Framework\Types\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Types\CFunctionTestDerived2.cpp">
+      <Filter>Tests\Framework\Types\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\StateMachines\StateMachines\IStateMachineCallback.cpp">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Scheduler\ISchedulerManagerCallback.cpp">
+      <Filter>Framework\Foundation\Scheduler\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Parsing\IParser.cpp">
+      <Filter>Framework\Foundation\Parsing\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\ILogFilter.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\ISocketWrapper.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\ISocketWaitObject.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Sockets\ISocketSynchronizationObject.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\ISocketUDPWrapper.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\ISocketUDPManagerCallback.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\ISocketTCPWrapper.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\ISocketTCPServerManagerCallback.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\ISocketTCPClientManagerCallback.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\ISocketDNSResolverManagerCallback.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\ISocketCANWrapper.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\ISocketCANManagerCallback.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CShortLivingThread.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CLongLivingThread.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CThreadWithStopRequestedEvent.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CManualResetMultiEventThread.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Threads\CAutoResetMultiEventThread.cpp">
+      <Filter>Tests\Framework\Threads\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Logger\CConsoleLogWriterColorSettings.cpp">
+      <Filter>Framework\Foundation\Logger\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketError.cpp">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseConditionData.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Framework\Communication\CSocketUDPResponseItemData.cpp">
+      <Filter>Tests\Framework\Communication\CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\Foundation\Collections\CDequeue.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CMap.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CPair.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CSet.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CTSDequeue.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CVector.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\IEnumerable.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\IEnumerableConst.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\IEnumerator.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\IEnumeratorConst.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\IIsBeforeComparator.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\CConsoleHelper.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenu.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuItem.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuItemCollection.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuItemCommandParams.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\EConsoleMenuItemType.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CArgumentException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CInvalidOperationException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CInvalidValueException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\COutOfMemoryException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CSocketException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CSystemException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CUnknownException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CValueOutOfRangeException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CConsoleLogWriter.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CLogCategory.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CLogRecord.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CLogSource.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CLogWriter.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\ELogRecordLevel.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Miscellaneous\CID.h">
+      <Filter>Framework\Foundation\Miscellaneous\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Miscellaneous\CRandom.h">
+      <Filter>Framework\Foundation\Miscellaneous\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Objects\CObject.h">
+      <Filter>Framework\Foundation\Objects\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Strings\CFloatFormatter.h">
+      <Filter>Framework\Foundation\Strings\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Strings\CIntegerFormatter.h">
+      <Filter>Framework\Foundation\Strings\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Strings\CString.h">
+      <Filter>Framework\Foundation\Strings\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Strings\EIntegerFormat.h">
+      <Filter>Framework\Foundation\Strings\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Strings\IValueFormatter.h">
+      <Filter>Framework\Foundation\Strings\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CAtomic.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CAutoResetEvent.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CAutoResetMultiEvent.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CLock.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CManualResetEvent.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CManualResetMultiEvent.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CMutex.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CThread.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\EThreadState.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Time\CDateTime.h">
+      <Filter>Framework\Foundation\Time\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Time\CExpirationTime.h">
+      <Filter>Framework\Foundation\Time\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Time\CSteadyClock.h">
+      <Filter>Framework\Foundation\Time\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Time\CStopWatch.h">
+      <Filter>Framework\Foundation\Time\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Time\CTimeout.h">
+      <Filter>Framework\Foundation\Time\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Time\CTimePoint.h">
+      <Filter>Framework\Foundation\Time\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\CFunction.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\CMethod.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\CSharedPointer.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\ICallableObject.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\Types.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Testing\CTest.h">
+      <Filter>Framework\Testing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Testing\CTestManager.h">
+      <Filter>Framework\Testing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\EParserEndianness.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserHelper.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CParserException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\EConsoleMenuLayout.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Types\CFunctionTest.h">
+      <Filter>Tests\Framework\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Types\CFunctionTestBase.h">
+      <Filter>Tests\Framework\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Types\CFunctionTestClass.h">
+      <Filter>Tests\Framework\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Types\CFunctionTestDerived1.h">
+      <Filter>Tests\Framework\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Types\CFunctionTestDerived2.h">
+      <Filter>Tests\Framework\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Strings\CNumericConversionsTest.h">
+      <Filter>Tests\Framework\Strings\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CMyThread1.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CMyThread2.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CMyThread3.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CThreadTest.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CInvalidCastException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CNotImplementedException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CByteBuffer.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserByteBufferReader.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserByteBufferWriter.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CArray.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuBatchItem.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuBatchItemCollection.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Events\CEvent.h">
+      <Filter>Framework\Foundation\Events\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Events\CEventThread.h">
+      <Filter>Framework\Foundation\Events\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateInputs\CStateInput.h">
+      <Filter>Framework\Foundation\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\States\CState.h">
+      <Filter>Framework\Foundation\StateMachines\States\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CStateMachinesProcessor.h">
+      <Filter>Framework\Foundation\StateMachines\StateMachinesProcessor\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\CStateMachine.h">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineCollection.h">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineID.h">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CStateMachineException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Miscellaneous\CPriority.h">
+      <Filter>Framework\Foundation\Miscellaneous\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\CStateMachineSettings.h">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateOutputs\CStateOutput.h">
+      <Filter>Framework\Foundation\StateMachines\StateOutputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachines\IStateMachineCallback.h">
+      <Filter>Framework\Foundation\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CNullPointerException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Time\EDateTimeFragmentFormat.h">
+      <Filter>Framework\Foundation\Time\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CList.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Miscellaneous\EWaitResult.h">
+      <Filter>Framework\Foundation\Miscellaneous\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CLogFilter.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\ILogFilter.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CLogFilterConfigurationItem.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CLogFilterConfiguration.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Operators\COperatorLessThan.h">
+      <Filter>Framework\Foundation\Operators\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Operators\COperatorGreaterThan.h">
+      <Filter>Framework\Foundation\Operators\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Operators\COperatorGreaterThanOrEqualTo.h">
+      <Filter>Framework\Foundation\Operators\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Operators\CBinaryOperators.h">
+      <Filter>Framework\Foundation\Operators\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Operators\COperatorLessThanOrEqualTo.h">
+      <Filter>Framework\Foundation\Operators\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Operators\COperatorEqualTo.h">
+      <Filter>Framework\Foundation\Operators\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Operators\COperatorNotEqualTo.h">
+      <Filter>Framework\Foundation\Operators\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\StateMachines\StateMachinesProcessor\CStateMachinesProcessorSettings.h">
+      <Filter>Framework\Foundation\StateMachines\StateMachinesProcessor\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Miscellaneous\CKeyValue.h">
+      <Filter>Framework\Foundation\Miscellaneous\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CCommunicationException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\CPrimitiveType.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Mathematics\CPoint2D.h">
+      <Filter>Framework\Foundation\Mathematics\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Mathematics\CLine2D.h">
+      <Filter>Framework\Foundation\Mathematics\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Mathematics\CPolygon2D.h">
+      <Filter>Framework\Foundation\Mathematics\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Mathematics\CMathematicsTest.h">
+      <Filter>Tests\Framework\Mathematics\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Mathematics\CMathematics.h">
+      <Filter>Framework\Foundation\Mathematics\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\TypeTraits.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Mathematics\ELine2DPointPosition.h">
+      <Filter>Framework\Foundation\Mathematics\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Mathematics\CCircle2D.h">
+      <Filter>Framework\Foundation\Mathematics\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Mathematics\CGeometryObject.h">
+      <Filter>Framework\Foundation\Mathematics\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriod.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByDay.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByWeekDay.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByYear.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByMinute.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByMonth.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimePeriodByHour.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Time\EDayOfWeek.h">
+      <Filter>Framework\Foundation\Time\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTime.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Scheduler\CSchedulerTest.h">
+      <Filter>Tests\Framework\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerItem.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerItemID.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerTimeInterval.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\ISchedulerManagerCallback.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Scheduler\CSchedulerManager.h">
+      <Filter>Framework\Foundation\Scheduler\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\CNullable.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CFileException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\FileSystem\CFileSystemTest.h">
+      <Filter>Tests\Framework\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketID.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\IP\CSocketIPAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\IP\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\IP\ESocketIPAddressType.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\IP\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketCANManagerMenu.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketCANMenu.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPManagerMenu.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPMenu.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CCommunicationTest.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\IP\CSocketIPEndpoint.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\IP\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANID.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANFrame.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocket.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ESocketWaitEvent.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendToParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveFromParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveFromResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendToResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDP.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCAN.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketWrapperUDP.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketWrapperCAN.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Global\CConstants.h">
+      <Filter>Framework\Platform\Global\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Global\CFunctions.h">
+      <Filter>Framework\Platform\Global\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Global\EFileOpenFlags.h">
+      <Filter>Framework\Platform\Global\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Global\EFileSeekOptions.h">
+      <Filter>Framework\Platform\Global\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Global\Macros.h">
+      <Filter>Framework\Platform\Global\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CIterators.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketLibrary.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ISocketSynchronizationObject.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketError.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ISocketWaitObject.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ESocketWaitFlags.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketWaitObject.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketSynchronizationObject.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ESocketWaitResultFlags.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketPlaformData.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManager.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponse.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequest.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageID.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessage.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\ISocketUDPManagerCallback.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerCallbackDispatcher.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketWrite.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketRead.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketError.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketClose.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketWrite.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketAdd.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageRequestSocketRemove.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketAdd.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageResponseSocketRemove.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketWaitState.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerWriteOperation.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerSocketData.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPReceiveFromParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPReceiveFromResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPSendToParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\CSocketUDPSendToResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANReceiveFromParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANReceiveFromResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANSendToParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\CSocketCANSendToResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketPlatformLibrary.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\ISocketCANManagerCallback.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerWriteOperation.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerSocketData.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketWrite.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketRemove.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketRead.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketError.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketClose.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponseSocketAdd.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageResponse.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketWrite.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketRemove.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequestSocketAdd.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageRequest.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageID.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessage.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerCallbackDispatcher.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManager.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\ISocketCANWrapper.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\ISocketUDPWrapper.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\ISocketWrapper.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketWrapperTCP.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketReceiveResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketSendResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPReceiveParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPReceiveResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPSendParameters.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPSendResult.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\ESocketTCPShutdownFlags.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\ISocketTCPWrapper.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPServer.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\CSocketTCPClient.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Socket\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketTCPMenu.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageID.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageID.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessage.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessage.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequest.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponse.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequest.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponse.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\ISocketTCPClientManagerCallback.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\ISocketTCPServerManagerCallback.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketRead.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketWrite.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketError.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketClose.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketError.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketConnect.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketConnect.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketAdd.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketRemove.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketAdd.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketRemove.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketShutdown.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketShutdown.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketAccept.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequestSocketAdd.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageRequestSocketRemove.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketAdd.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageResponseSocketRemove.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerCallbackDispatcher.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerCallbackDispatcher.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerWriteOperation.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageRequestSocketWrite.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerSocketData.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManager.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketTCPManagerMenu.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManager.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerSocketData.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketClosing.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageResponseSocketClosed.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketStatisticsRecord.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketStatistics.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseManager.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponse.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseItem.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseManagerMenu.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseCondition.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInput1.h">
+      <Filter>Tests\Framework\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInput2.h">
+      <Filter>Tests\Framework\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInput3.h">
+      <Filter>Tests\Framework\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput1.h">
+      <Filter>Tests\Framework\StateMachines\StateOutputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput2.h">
+      <Filter>Tests\Framework\StateMachines\StateOutputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput3.h">
+      <Filter>Tests\Framework\StateMachines\StateOutputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInputAddChildStateMachine.h">
+      <Filter>Tests\Framework\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException3.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException2.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException1.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine3.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine2.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine1.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\ETestStateMachineThrowExceptionType.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineThrowException.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings3.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings2.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings1.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings3.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings2.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings1.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInputSendStateOutput.h">
+      <Filter>Tests\Framework\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInputChangeState.h">
+      <Filter>Tests\Framework\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachinesProcessors\CTestStateMachinesProcessor.h">
+      <Filter>Tests\Framework\StateMachines\StateMachinesProcessors\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachinesProcessors\CTestStateMachinesProcessorSettings.h">
+      <Filter>Tests\Framework\StateMachines\StateMachinesProcessors\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\Tests\CStateMachineTest.h">
+      <Filter>Tests\Framework\StateMachines\Tests\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketDNSHelper.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketDNSMenu.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CAbstractMutex.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\Sockets\CSocketAddressHelper.h">
+      <Filter>Framework\Platform\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParser.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserConfiguration.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserPacket.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserPacketData.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserPacketParseConstructor.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserParameter.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserParameterCollection.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\CParserParameterID.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Parsing\IParser.h">
+      <Filter>Framework\Foundation\Parsing\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\ESocketExceptionCode.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettings4.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine4.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineException4.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineExceptionSettings4.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachine.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineBasicTests.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateMachines\CTestStateMachineSettingsBasicTests.h">
+      <Filter>Tests\Framework\StateMachines\StateMachines\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateOutputs\CStateOutput4.h">
+      <Filter>Tests\Framework\StateMachines\StateOutputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInput4.h">
+      <Filter>Tests\Framework\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\StateMachines\StateInputs\CStateInputUnsupported.h">
+      <Filter>Tests\Framework\StateMachines\StateInputs\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\SBool.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Events\CEventContext.h">
+      <Filter>Framework\Foundation\Events\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Events\CEventData.h">
+      <Filter>Framework\Foundation\Events\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Events\CEventID.h">
+      <Filter>Framework\Foundation\Events\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerEventContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerEventContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerEventContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerEventContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSResolver.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\ESocketDNSAddressType.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\ESocketDNSProtocolType.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManager.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerCallbackDispatcher.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessage.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageID.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequest.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponse.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\ISocketDNSResolverManagerCallback.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\CSocketCANManagerMessageContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\CAN\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPClientManagerMessageContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\CSocketTCPServerManagerMessageContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\TCP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\CSocketUDPManagerMessageContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\UDP\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageContext.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Exceptions\CEncryptionException.h">
+      <Filter>Framework\Foundation\Exceptions\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameter.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterCollection.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterID.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmConfiguration.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithm.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CEncryptionAlgorithmConfigurationNoEncryption.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\CEncryptionAlgorithmNoEncryption.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\NoEncryption\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CEncryptionAlgorithmConfigurationRC4.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\RC4\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CEncryptionAlgorithmRC4.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\RC4\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CRC4.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\RC4\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\RC4\CRC4Key.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\RC4\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Security\CEncryptionTest.h">
+      <Filter>Tests\Framework\Security\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CMultiMap.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Collections\CCollectionTest.h">
+      <Filter>Tests\Framework\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CMultiSet.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequestDNSAddressToIPAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageRequestIPAddressToDNSAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponseDNSAddressToIPAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\CSocketDNSResolverManagerMessageResponseIPAddressToDNSAddress.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Manager\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\CSocketDNSEndpoint.h">
+      <Filter>Framework\Foundation\Communication\Networking\Protocols\DNS\Resolver\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Cache\CCacheEntry.h">
+      <Filter>Framework\Foundation\Cache\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Cache\CCacheEntryID.h">
+      <Filter>Framework\Foundation\Cache\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Cache\CCacheManager.h">
+      <Filter>Framework\Foundation\Cache\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Cache\CCacheTest.h">
+      <Filter>Tests\Framework\Cache\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Cache\CCacheEntryTest1.h">
+      <Filter>Tests\Framework\Cache\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Cache\CCacheEntryTest2.h">
+      <Filter>Tests\Framework\Cache\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\EConsoleMenuOnPressEnterBehavior.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\CConsoleMenuItemCommandParamsIterator.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CDummyLogWriter.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Security\Encryption\Algorithms\Base\CEncryptionAlgorithmParameterTime.h">
+      <Filter>Framework\Foundation\Security\Encryption\Algorithms\Base\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\FileSystem\CFileSystemTestPathData.h">
+      <Filter>Tests\Framework\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\CFilePath.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\CFilePathSegment.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\CFilePathTraitsLinux.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\CFilePathTraitsWindows.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\EFilePathSegmentType.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Platform\FileSystem\CFileSystemHelper.h">
+      <Filter>Framework\Platform\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\EFileAccessMode.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\EFileOpenMode.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\CFile.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\EFileSeekMode.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\CFileHelper.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\CDirectoryEntry.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\EDirectoryEntryType.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\FileSystem\CDirectory.h">
+      <Filter>Framework\Foundation\FileSystem\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Communication\Networking\Sockets\CSocketEndpoint.h">
+      <Filter>Framework\Foundation\Communication\Networking\Sockets\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Console\EConsoleColor.h">
+      <Filter>Framework\Foundation\Console\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Threads\CAtomicSlim.h">
+      <Filter>Framework\Foundation\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CShortLivingThread.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CLongLivingThread.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CThreadWithStopRequestedEvent.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CManualResetMultiEventThread.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Threads\CAutoResetMultiEventThread.h">
+      <Filter>Tests\Framework\Threads\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Types\CType.h">
+      <Filter>Framework\Foundation\Types\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Logger\CConsoleLogWriterColorSettings.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseConditionData.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\ESocketUDPResponseConditionDataComparisonMode.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\CSocketUDPResponseItemData.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\Framework\Communication\ESocketUDPResponseItemDataMode.h">
+      <Filter>Tests\Framework\Communication\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Collections\CTuple.h">
+      <Filter>Framework\Foundation\Collections\H</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Foundation\Strings\EPaddingDirection.h">
+      <Filter>Framework\Foundation\Strings\H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Framework\Foundation\Logger\ELogRecordType.h">
+      <Filter>Framework\Foundation\Logger\H</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="NatvisFile.natvis" />
+  </ItemGroup>
+</Project>
